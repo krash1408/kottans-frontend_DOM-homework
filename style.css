@@ -52,9 +52,6 @@ header {
     background-color: rgba(220, 20, 60,.15);
 }
 
-.content_wrapper {
-    padding: 1em;
-}
 .content__item {
     background-color: rgba(0,0,0,.3);
     border-radius: 3px;
@@ -66,7 +63,7 @@ header {
 
     display: flex;
     flex-flow: row wrap;
-    flex: 1 1 70%;
+    flex: 0 0 70%;
 }
 .content__item--visible {
     opacity: 1;
@@ -84,15 +81,13 @@ h3 {
     letter-spacing: -2px;
 }
 img {
-    width: 200px;
-    height: 140px;
     margin: 0.5em;
-    flex: 0 0 200px;
+    flex: 0 0 25%;
     border-radius: 1em;
     box-shadow: 0 0 20px 10px  rgba(255,255,255,.8);
 }
 p {
-    width: 60%;
+    width: 70%;
     padding: 0;
     margin: 0.5em;
     font-family: 'Neucha', cursive;
