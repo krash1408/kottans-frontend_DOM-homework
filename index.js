@@ -30,14 +30,11 @@ function navItemSelected(value) {
     })
 
     value.target.classList.add('navigation__item--active');
-    console.log('clicked');
     itemArr.forEach((item, index) => {
         if (item.classList.contains('navigation__item--active')) {
             contentArr[index].classList.add('content__item--visible');
         }
     })
-
-
 }
 
 let itemBuild = document.querySelector('main');
